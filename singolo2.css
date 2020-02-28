@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;;
+  }
+  
+  body {
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  .presentation {
+    height: 865px;
+    background-color: #2d303a;
+    border-bottom: 6px solid #323746;
+ 
+  }
+  
+  .casing {
+    width: 1020px;
+    margin: 0 auto;
+    padding: 60px 40px 0px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #666d89;
+  }
+  
+  h3 {
+    margin: 0;
+    padding: 0;
+    padding-top: 11px;
+    letter-spacing: -0.3px;
+
+  }
+  p {
+    position: relative;
+    font-size: 18px;
+    font-weight: 300;
+    color: #767e9e;
+    /*letter-spacing: -0.23px;  */
+    top: 22px;
+  }
+  
+  .list_links {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    list-style: none;
+    width: 287px;
+    padding: 0px; 
+    margin: 19px 0; 
+    text-transform: capitalize;
+    top: 18px;
+  }
+  .list_links a {
+    text-decoration: none;
+  
+  }
+  .list_links a:hover {
+    border: 1px solid #ffffff;
+    color: white;
+    border-radius: 4px;
+    font-weight: 900;
+  }
+  
+
+  .list_links li  a {
+    font-size: 12px;
+    font-weight: 400;
+   /* line-height: 8px;*/
+    color: #767e9e;
+    padding: 3px 6px ;
+    border: 1px solid #666d89;
+    border-radius: 6px; 
+  }
+  
+  .pictures {
+    display: grid; 
+    position: relative;
+    grid-template: repeat(3, 187px) / repeat(4, 220px);
+    grid-gap: 20px; 
+    top: 20px;
+  }
+  
+  .team {
+    height: 728px;
+    background-color: #f2f2f2;
+    border-bottom: 6px solid #ffffff;
+  }
+  
+  .team h2{
+    position: relative;
+    top: -1px;
+  }
+  
+  .team p{
+    position: relative;
+    top: 17px;
+    line-height: 30px;
+    letter-spacing: -0.05px;
+  }
+  
+  .Our_people {
+    display: grid;
+    position: relative;
+    grid-template: 445px / repeat(3, 300px); 
+    grid-gap: 20px; 
+    top: 62px;
+  }
+  
+  .employee p {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .icons img {
+    padding-top: 40px;
+    padding-right: 5px;
+  }
+  .icons  a:hover  img {
+    padding: 0;
+    border: 5px dotted green;
+  }
