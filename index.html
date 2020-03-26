@@ -7,19 +7,25 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
+    <div id="headerMain">
+      <div id="header">  
       <header> 
         <nav><h1>SINGOLO<span class="font_red">*</span></h1>
+          
           <ul>
-               <!--when pages appear, specify the path-->
-            <li><a href=""> HOME</a></li> 
-            <li><a href="">SERVICES</a></li>
-            <li><a href="">PORTFOLIO</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">CONTACT</a></li>
+             <!--when pages appear, specify the path-->
+            <li><a class="js_link active" href=""> HOME</a></li> 
+            <li><a class="js_link" href="#yak1">SERVICES</a></li>
+            <li><a class="js_link" href="#yak2">PORTFOLIO</a></li>
+            <li><a class="js_link" href="#yak3">ABOUT</a></li>
+            <li><a class="js_link" href="#yak4">CONTACT</a></li>
           </ul>
+          
         </nav>
-      </header>
-
+        </header>
+      </div>
+    </div>
+      
         <div class="mid_page"> 
             <img  src="assets/photo/iPhone .png" alt="phone" class="photo_displayed">
           <div class="chev_box"> 
@@ -30,9 +36,8 @@
            </div>
         </div>
 
-
-          <div class="font_footer">
-           <p > Our Services </p>
+          <div  class="font_footer" >
+           <p id="yak1"> Our Services </p>
 
             <div class="font_p_foot">
             <p > Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt natus quos aliquid commodi et<br>
@@ -95,7 +100,7 @@
   
     <section class="presentation">
       <div class="casing">
-        <h2>Portfolio</h2>
+        <h2 id="yak2">Portfolio</h2>
         <p>Das ist mein Portfolio.
            Ich verstehe das Original und meine Version viele Unterschide haben</p>
         <ul class="list_links">
@@ -122,7 +127,7 @@
     </section>
     <section class="team">
       <div class="casing">
-        <h2>About Us</h2>
+        <h2 id="yak3">About Us</h2>
         <p> Hier mit stellen wir Sie vor. Das ist unserer Team. Wir arbeiten zusamen schon seit langer Zeit. Mit viel Spaß und Erfolg.
           <br>Wenn Sie möchten, dann können Sie mit uns in Verbindung setzen. Dafür brauchen Sie nur auf passende Link klicken.
           </p>
@@ -165,7 +170,7 @@
     </section>
     <section class="sing3">
       <div>
-        <h2><b>Get a Quote</b></h2>
+        <h2 id="yak4"><b>Get a Quote</b></h2>
           <p>Das ist mein Portfolio.
            Ich verstehe das Original und meine Version Unterschide haben. Aber... Sie
            werden mir verzeihen,<br> weil ich lerne noch die Webseite zuerstellen.
@@ -235,4 +240,5 @@
         </div> 
     </section>
   </body>
+  <script src = "script.js"></script>
 </html>

@@ -9,7 +9,23 @@
         margin: 0 auto;
         width: 1020px;
         }
-    
+     #headerMain {
+            width:1020px;
+            height:89px;
+            margin:0px auto;
+           padding: 0;
+            z-index:0;
+          }
+           
+          #header {
+            width:1020px;
+            height: 89px;
+            position: fixed;
+            margin: 0;
+            padding: 0px;
+            z-index: 9999;
+          }
+
     header {
         display: inline-block;
         width: 1020px;
@@ -23,6 +39,10 @@
         border-bottom: 6px solid #323746;
         }
        
+
+       .active {
+        color : red;
+       }
     
     nav h1 {
         box-sizing: content-box;
